@@ -1,0 +1,10 @@
+* {
+  color:white;
+  font-family: ui-sans-serif,system-ui
+}
+
+.Website {
+  background-color: #10142c;
+  height: 100vh;
+  display: flex;
+}
