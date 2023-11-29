@@ -1,0 +1,17 @@
+.ExpContainer {
+  padding: 40px 50px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: green;
+}
+
+.Item {
+  padding-bottom: 50px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: green;
+}
+
+.Item:hover {
+
+}

@@ -1,7 +1,4 @@
 .InfoContainer {
-    margin-left: 37%;
-    border-width: 1px;
-    border-style: solid;
-    border-color: green;
-
+    padding-left: 37vw;
+    scroll-behavior: smooth;
 }

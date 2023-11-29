@@ -1,9 +1,8 @@
-import React from "react";
 import styles from "./Overview.module.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import githublogo from "../assets/images/githublogo.png";
 import linkedinlogo from "../assets/images/linkedinlogo.png";
 import emaillogo from "../assets/images/emaillogo.png";
+import { Link } from "react-scroll";
 
 const Overview = () => {
   return (
@@ -13,11 +12,41 @@ const Overview = () => {
       <div className={styles.Descrip}>
         Passion for programming and building projects
       </div>
+
       <div className={styles.Menu}>
-        <div className={styles.AboutSelect}>About</div>
-        <div className={styles.ExpSelect}>Experience</div>
-        <div className={styles.ProjectsSelect}>Projects</div>
+        <Link
+          activeClass="active"
+          activeStyle={{ color: "pink" }}
+          to="about"
+          spy={true}
+          smooth={true}
+          duration={500}
+          className={styles.AboutSelect}
+        >
+          About
+        </Link>
+        <Link
+          activeStyle={{ color: "pink" }}
+          to="experiences"
+          spy={true}
+          smooth={true}
+          duration={500}
+          className={styles.ExpSelect}
+        >
+          Experiences
+        </Link>
+        <Link
+          activeStyle={{ color: "pink" }}
+          to="projects"
+          spy={true}
+          smooth={true}
+          duration={500}
+          className={styles.ProjectsSelect}
+        >
+          Projects
+        </Link>
       </div>
+
       <div className={styles.Icons}>
         <a href="https://github.com/kcao0918">
           <img src={githublogo} alt="Github" width={40} />
