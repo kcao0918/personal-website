@@ -5,6 +5,6 @@
 
 .Website {
   background-color: #10142c;
-  height: 100vh;
+  background-size:cover;
   display: flex;
 }

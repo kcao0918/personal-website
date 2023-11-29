@@ -1,3 +1,7 @@
 .InfoContainer {
-    flex: 2;
+    margin-left: 37%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: green;
+
 }

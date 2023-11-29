@@ -4,6 +4,7 @@ import styles from "./About.module.css";
 const About = () => {
     return (
         <div className={styles.AboutMe}>
+            
             I am currently in my sophomore year at Georgia Tech, majoring in
             computer science with a focus on Intelligence and System
             Architecture. My enthusiasm for Web Development and my passion for
