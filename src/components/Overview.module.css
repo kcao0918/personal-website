@@ -49,6 +49,7 @@
 .ExpSelect:hover,
 .ProjectsSelect:hover {
   color: #ffffff;
+  cursor: pointer;
 }
 
 .Icons {

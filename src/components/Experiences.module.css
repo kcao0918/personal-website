@@ -1,19 +1,52 @@
 .ExpContainer {
-  padding: 80px 50px;
+  padding-top: 80px;
+  padding-left:50px;
   border-width: 1px;
   border-style: solid;
   border-color: green;
 }
 
 .Item {
+  width:700px;
   padding-bottom: 50px;
   border-width: 1px;
   border-style: solid;
-  border-color: green;
+  border-color: rgb(97, 130, 97);
   display: flex;
+}
+
+.Item:hover {
+  cursor: pointer;
 }
 
 .ItemDate {
   min-width: 150px;
   margin-right: 20px;
+  color: #6378a0;
+  font-weight: bold;
+}
+
+.ItemPosition {
+  color: #b9c2dc;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.ItemBody {
+  color: #8d9bb8;
+}
+
+.TechList {
+  padding-top: 20px;
+  display: flex;
+}
+
+.TechStack {
+  margin-right: 15px;
+  color: #72d4d6;
+  background-color: #193346;
+  padding: 6px 14px;
+  font-size: 15px;
+  border-radius: 40px;
+  font-weight: bold;
 }

@@ -5,12 +5,12 @@ import Overview from "./components/Overview";
 import Info from "./components/Info";
 
 function App() {
-    return (
-        <div className={styles["Website"]}>
-            <Overview />
-            <Info />
-        </div>
-    );
+  return (
+    <div className={styles["Website"]}>
+      <Overview />
+      <Info />
+    </div>
+  );
 }
 
 export default App;

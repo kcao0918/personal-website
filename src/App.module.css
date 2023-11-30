@@ -1,10 +1,10 @@
 * {
-  color:white;
-  font-family: ui-sans-serif,system-ui
+  color: white;
+  font-family: ui-sans-serif, system-ui;
 }
 
 .Website {
-  background-color: #11173c;
-  background-size:cover;
+  background-color: #131a33;
+  background-size: cover;
   display: flex;
 }
