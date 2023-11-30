@@ -15,8 +15,7 @@ const Overview = () => {
 
       <div className={styles.Menu}>
         <Link
-          activeClass="active"
-          activeStyle={{ color: "pink" }}
+          activeStyle={{ color: "#72d4d6" }}
           to="about"
           spy={true}
           smooth={true}
@@ -26,7 +25,7 @@ const Overview = () => {
           About
         </Link>
         <Link
-          activeStyle={{ color: "pink" }}
+          activeStyle={{ color: "#72d4d6" }}
           to="experiences"
           spy={true}
           smooth={true}
@@ -36,7 +35,7 @@ const Overview = () => {
           Experiences
         </Link>
         <Link
-          activeStyle={{ color: "pink" }}
+          activeStyle={{ color: "#72d4d6" }}
           to="projects"
           spy={true}
           smooth={true}

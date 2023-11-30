@@ -25,6 +25,13 @@ const Experiences = () => {
         "Qubit by Qubit participant, engaging in quantum computing education programs. Acquired foundational knowledge and practical skills in quantum computing principles. Collaborated on hands-on activities and coding exercises to advance proficiency in this emerging field.",
       techstack: ["Python"],
     },
+    {
+      date: "JUL 21 - AUG 21",
+      position: "Office Assistant · SONYC",
+      description:
+        "Operated the campus bazaar, streamlining student point exchanges for items and organizing engaging classroom events. Assisted in daily document preparation and filing for efficient office management.",
+      techstack: ["Google Suites"],
+    },
   ];
   return (
     <div className={styles.ExpContainer}>
