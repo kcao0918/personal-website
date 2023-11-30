@@ -1,5 +1,5 @@
 .ExpContainer {
-  padding: 40px 50px;
+  padding: 80px 50px;
   border-width: 1px;
   border-style: solid;
   border-color: green;
@@ -10,8 +10,10 @@
   border-width: 1px;
   border-style: solid;
   border-color: green;
+  display: flex;
 }
 
-.Item:hover {
-
+.ItemDate {
+  min-width: 150px;
+  margin-right: 20px;
 }
