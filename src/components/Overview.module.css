@@ -54,10 +54,30 @@
   gap: 15px;
 }
 
-.Icons a {
+.Icons a img {
+  display: inline-block;
   transition: transform 0.4s ease-in-out;
 }
 
-.Icons a:hover {
+.Icons a:hover img {
   transform: scale(1.5);
+}
+
+.DropDown {
+  padding-left: 0px;
+  text-decoration: none;
+}
+
+li {
+  text-decoration: none;
+  padding: 15px 20px;
+  list-style-type: none;
+  color: #e5ecff;
+  background-color: rgb(44, 62, 94);
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
 }

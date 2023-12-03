@@ -17,6 +17,15 @@ const Overview = () => {
     return isActive ? `———— ${sect}` : `—— ${sect}`;
   };
 
+  const [DropdownVisibility, setDropdownVisibility] = useState(false);
+
+  let timeoutId: NodeJS.Timeout;
+  const handleDropdownVisibility = (isVisible: boolean) => {
+    timeoutId = setTimeout(() => {
+      setDropdownVisibility(isVisible);
+    }, 400);
+  };
+
   return (
     <div className={styles["Overview"]}>
       <div className={styles.Name}>Kenny Cao</div>
@@ -44,7 +53,9 @@ const Overview = () => {
           duration={500}
           className={styles.ExpSelect}
           onSetActive={() => handleActiveSection("Experiences")}
-          style={{ color: activeSection === "Experiences" ? "#72d4d6" : "#d3d6e6" }}
+          style={{
+            color: activeSection === "Experiences" ? "#72d4d6" : "#d3d6e6",
+          }}
         >
           {handleDashes("Experiences")}
         </Link>
@@ -55,7 +66,9 @@ const Overview = () => {
           duration={500}
           className={styles.ProjectsSelect}
           onSetActive={() => handleActiveSection("Projects")}
-          style={{ color: activeSection === "Projects" ? "#72d4d6" : "#d3d6e6" }}
+          style={{
+            color: activeSection === "Projects" ? "#72d4d6" : "#d3d6e6",
+          }}
         >
           {handleDashes("Projects")}
         </Link>
@@ -68,8 +81,18 @@ const Overview = () => {
         <a href="https://www.linkedin.com/in/kenny-cao-500a66234/">
           <img src={linkedinlogo} alt="LinkedIn" width={40} />
         </a>
-        <a href="google.com">
+        <a
+          href=""
+          onMouseEnter={() => handleDropdownVisibility(true)}
+          onMouseLeave={() => handleDropdownVisibility(false)}
+        >
           <img src={emaillogo} alt="Email" width={40} />
+          {DropdownVisibility && (
+            <ul className={styles.DropDown}>
+              <li>kcao0918@gmail.com</li>
+              <li>kcao65@gatech.edu</li>
+            </ul>
+          )}
         </a>
       </div>
     </div>
