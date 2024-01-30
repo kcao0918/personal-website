@@ -3,3 +3,9 @@
   scroll-behavior: smooth;
   margin-top: 0px;
 }
+
+@media screen and (max-width: 600px) {
+  .InfoContainer {
+    padding-left: 0px;
+  }
+}

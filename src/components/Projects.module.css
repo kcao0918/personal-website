@@ -1,3 +1,13 @@
 .ProjectContainer {
   height: 1000px;
+  color: #72d4d6;
+  font-size: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  .ProjectContainer {
+    height: 1000px;
+    color: #72d4d6;
+    font-size: 25px;
+  }
 }

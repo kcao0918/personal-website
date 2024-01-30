@@ -4,7 +4,16 @@
 }
 
 .Website {
+  display: flex;
   background-color: #10162c;
   background-size: cover;
-  display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  .Website {
+    background-color: #10162c;
+    background-size: cover;
+    display: grid;
+    width: 100%;
+  }
 }

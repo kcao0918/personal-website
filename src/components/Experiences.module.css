@@ -5,12 +5,21 @@
 }
 
 .Item {
-    width: 750px;
+  width: 750px;
+  padding-top: 25px;
+  padding-bottom: 40px;
+  display: flex;
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+}
+
+@media screen and (max-width: 600px) {
+  .Item {
     padding-top: 25px;
     padding-bottom: 40px;
-    display: flex;
+    display: block;
     transition: background-color 0.3s ease;
-    border-radius: 10px;
+  }
 }
 
 .Item:hover {
@@ -26,6 +35,13 @@
     font-weight: bold;
 }
 
+@media screen and (max-width: 600px) {
+  .ItemDate {
+    padding-left: 0px;
+    margin-bottom: 15px;
+  }
+}
+
 .ItemPosition {
     color: #b9c2dc;
     font-weight: 600;
@@ -39,6 +55,12 @@
 .ItemBody {
     color: #8d9bb8;
     padding-right: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .ItemBody {
+    padding-right: 300px;
+  }
 }
 
 .TechList {

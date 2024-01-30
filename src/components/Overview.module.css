@@ -81,3 +81,18 @@ li {
 a {
   text-decoration: none;
 }
+
+@media screen and (max-width: 600px) {
+  .Overview {
+    width: 100%;
+    position: relative;
+    border: #b2baed 1px solid;
+  }
+
+  .Name {
+    font-size: 3rem;
+    font-weight: bold;
+    padding-bottom: 0px;
+    color: #c6d2ed;
+  }
+}
