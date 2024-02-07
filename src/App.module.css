@@ -1,19 +1,17 @@
 * {
-  color: white;
-  font-family: ui-sans-serif, system-ui;
+    color: white;
+    font-family: ui-sans-serif, system-ui;
 }
 
 .Website {
-  display: flex;
-  background-color: #10162c;
-  background-size: cover;
+    display: inline-flex;
+    background-color: #10162c;
+    background-size: 100%;
 }
 
-@media screen and (max-width: 600px) {
-  .Website {
-    background-color: #10162c;
-    background-size: cover;
-    display: grid;
-    width: 100%;
-  }
+@media screen and (max-width: 500px) {
+    .Website {
+        display: grid;
+        width: max-content;
+    }
 }
