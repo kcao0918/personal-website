@@ -86,13 +86,6 @@ const Overview = () => {
           onMouseEnter={() => handleDropdownVisibility(true)}
           onMouseLeave={() => handleDropdownVisibility(false)}
         >
-          <img src={emaillogo} alt="Email" width={40} />
-          {DropdownVisibility && (
-            <ul className={styles.DropDown}>
-              <li>kcao0918@gmail.com</li>
-              <li>kcao65@gatech.edu</li>
-            </ul>
-          )}
         </a>
       </div>
     </div>

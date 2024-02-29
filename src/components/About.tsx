@@ -8,7 +8,7 @@ const About = () => {
       <div className={styles.Highlight}> Georgia Tech</div>, majoring in
       computer science with a focus on
       <div className={styles.Highlight}> Intelligence</div> and
-      <div className={styles.Highlight}> System Architecture</div>. My
+      <div className={styles.Highlight}> Info/Internetworks</div>. My
       enthusiasm for <div className={styles.Highlight}> Web Development</div>{" "}
       and my passion for solving coding problems have fueled my journey in
       programming. Proficient in <div className={styles.Highlight}> Python</div>
