@@ -5,14 +5,15 @@ const About = () => {
   return (
     <div className={styles.AboutMe}>
       I am currently in my sophomore year at
-      <div className={styles.Highlight}> Georgia Tech</div>, majoring in
+      <div className={styles.Highlight}> Georgia Tech</div>, 
+      majoring in
       computer science with a focus on
       <div className={styles.Highlight}> Intelligence</div> and
-      <div className={styles.Highlight}> Info/Internetworks</div>. My
-      enthusiasm for <div className={styles.Highlight}> Web Development</div>{" "}
-      and my passion for solving coding problems have fueled my journey in
-      programming. Proficient in <div className={styles.Highlight}> Python</div>
-      ,<div className={styles.Highlight}> Java</div>,
+      <div className={styles.Highlight}> Info/Internetworks</div>. My enthusiasm
+      for <div className={styles.Highlight}> Web Development</div> and my
+      passion for solving coding problems have fueled my journey in programming.
+      Proficient in <div className={styles.Highlight}> Python</div>,
+      <div className={styles.Highlight}> Java</div>,
       <div className={styles.Highlight}> HTML/CSS/JS</div>, and
       <div className={styles.Highlight}> TypeScript</div>, I also leverage the
       <div className={styles.Highlight}> React</div> library for crafting

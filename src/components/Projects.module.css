@@ -1,13 +1,83 @@
-.ProjectContainer {
-    height: 62.5rem;
-    color: #72d4d6;
-    font-size: 6.25rem;
+/* Container */
+.ExpContainer {
+  padding: 5rem 3rem;
+}
+
+/* Item */
+.Item {
+  width: 47rem;
+  padding: 1.5rem 1rem;
+  display: flex;
+  border-radius: 0.94rem;
+  transition: background-color 0.3s ease;
 }
 
 @media screen and (max-width: 700px) {
-    .ProjectContainer {
-        height: 62.5rem;
-        color: #72d4d6;
-        font-size: 1.5625rem;
-    }
+  .Item {
+    width: auto;
+    padding-top: 1.56rem;
+    padding-bottom: 2.5rem;
+    display: block;
+  }
+}
+
+.Item:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+/* Item Date */
+.ItemDate {
+  padding-left: 0.94rem;
+  min-width: 9.4rem;
+  margin-right: 0.63rem;
+  color: #6378a0;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+  .ItemDate {
+    padding-left: 0;
+    margin-bottom: 0.94rem;
+  }
+}
+
+/* Item Position */
+.ItemPosition {
+  color: #b9c2dc;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.Item:hover .ItemPosition {
+  color: #72d4d6;
+}
+
+/* Item Body */
+.ItemBody {
+  color: #8d9bb8;
+  padding-right: 1.875rem; /* May need adjustment for responsiveness */
+}
+
+@media screen and (max-width: 700px) {
+  .ItemBody {
+    padding-right: 2rem; /* Adjusted for better responsiveness */
+  }
+}
+
+/* Tech List */
+.TechList {
+  padding-top: 1.25rem;
+  display: flex;
+}
+
+/* Tech Stack */
+.TechStack {
+  margin-right: 0.625rem;
+  color: #72d4d6;
+  background-color: #193346;
+  padding: 0.375rem 0.875rem;
+  font-size: 0.94rem;
+  border-radius: 2.5rem;
+  font-weight: 600;
 }
