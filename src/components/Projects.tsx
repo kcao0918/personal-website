@@ -4,6 +4,13 @@ import styles from "./Projects.module.css";
 const Projects = () => {
   const projects = [
     {
+      position: "SpotWrapper (Present)",
+      description: `Utilized Firebase for streamlined user authentication and harnessed the 
+      Spotify API to seamlessly retrieve users' historical data, including top artists, frequently played tracks, and access
+      past Spotify Wraps while playing background music.`,
+      techstack: ["Android Studio", "Java", "Firebase", "Spotify API"],
+    },
+    {
       position: "Gide",
       description: `Implemented a Firebase back-end system to enable smooth user authentication and login functionality, catering to
       both store managers and regular users. Utilized seamless integration with the Google Maps API to offer accurate location services for identifying stores and

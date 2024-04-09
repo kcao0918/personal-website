@@ -4,9 +4,8 @@ import styles from "./About.module.css";
 const About = () => {
   return (
     <div className={styles.AboutMe}>
-      I am currently in my sophomore year at
-      <div className={styles.Highlight}> Georgia Tech</div>, 
-      majoring in
+      I am currently in my junior year at
+      <div className={styles.Highlight}> Georgia Tech</div>, majoring in
       computer science with a focus on
       <div className={styles.Highlight}> Intelligence</div> and
       <div className={styles.Highlight}> Info/Internetworks</div>. My enthusiasm
